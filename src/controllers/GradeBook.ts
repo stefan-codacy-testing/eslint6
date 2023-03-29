@@ -1,4 +1,3 @@
-import { ObjectID, ObjectId } from 'bson'
 import {
   testActivityStatus,
   assignmentPolicyOptions,
@@ -23,9 +22,6 @@ import {
   getClassStatusMap,
   getClassAssignmentSettings,
   getStudentsAndEnrollments,
-Critical icon CRITICAL
-Error Prone
-"./Assignment" is not found.
 } from './Assignment'
 import {
   getInterestedCurriculums,
