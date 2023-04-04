@@ -1,7 +1,4 @@
-import {
-  testActivityStatus,
-  assignmentPolicyOptions,
-} from '@edulastic/constants'
+import {testActivityStatus, assignmentPolicyOptions} from '@edulastic/constants'
 import * as _ from 'lodash'
 import UserTestItemModel from '../models/userTestItemActivity'
 import UserTestActivityModel from '../models/userTestActivity'
@@ -52,7 +49,7 @@ const userModel = new UserModel()
 const standardsProficiencyModel = new StandardsProficiencyModel()
 
 type NameId = {
-  firstName: string
+  firstName: string,
   _id: ObjectID
 }
 
